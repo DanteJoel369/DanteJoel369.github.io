@@ -1,0 +1,8 @@
+# Digital Dreams
+
+> Content strategy, SEO and email marketing for small brands.
+
+## Pages
+- [Home](https://dantejoel369.github.io/): what we do and how we work
+- [Services](https://dantejoel369.github.io/#services): content strategy, SEO and AI visibility, email and social
+- [Blog](https://dantejoel369.github.io/#blog): articles and guides
