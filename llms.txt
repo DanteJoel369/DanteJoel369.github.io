@@ -1,9 +1,14 @@
 # Digital Dreams
 
-> Content strategy, SEO and email marketing for small brands.
+> Done-for-you SEO content, newsletters and social media content for small businesses. Written to rank on Google and to be understood and cited by AI assistants.
+
+Digital Dreams plans, writes and repurposes content for small businesses on a month-to-month basis. Plans: Content Audit + 90-day plan ($299 one time), Starter ($497/month: 2 SEO blog posts, 1 newsletter, 8 social posts), Growth ($997/month: 4 SEO blog posts, 2 newsletters, 16 social posts, on-page SEO and AI-visibility work). Clients own all content once paid. No long contracts.
 
 ## Pages
-- [Home](https://dantejoel369.github.io/): what we do and how we work
-- [Services](https://dantejoel369.github.io/#services): content strategy, SEO and AI visibility, email and social
-- [Blog](https://dantejoel369.github.io/#blog): articles and guides
-- [Why Great Content Still Doesn’t Rank](https://dantejoel369.github.io/why-great-content-doesnt-rank.html): search intent explained, with a five-minute check
+- [Home](https://dantejoel369.github.io/): services, process, pricing and FAQ
+- [Pricing](https://dantejoel369.github.io/#pricing): plans and add-on prices
+- [Get started](https://dantejoel369.github.io/contact.html): client inquiry form
+- [Privacy policy](https://dantejoel369.github.io/privacy.html)
+
+## Articles
+- [Why Great Content Still Doesn’t Rank (and the Fix)](https://dantejoel369.github.io/why-great-content-doesnt-rank.html): search intent explained, with a five-minute check

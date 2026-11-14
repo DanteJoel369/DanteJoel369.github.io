@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Started | Digital Dreams</title>
+<meta name="description" content="Tell us about your business and goals. We reply within one business day with a recommended plan and next steps.">
+<link rel="canonical" href="https://dantejoel369.github.io/contact.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Get started with Digital Dreams">
+<meta property="og:description" content="Done-for-you SEO content for small businesses. Tell us about your project.">
+<meta property="og:image" content="https://dantejoel369.github.io/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap">
+<a class="brand" href="./"><img src="favicon.svg" width="28" height="28" alt="">Digital Dreams</a>
+<nav aria-label="Main"><a href="./#services">Services</a><a href="./#pricing">Pricing</a><a href="./#faq">FAQ</a><a href="./#blog">Blog</a></nav>
+</div></header>
+
+<main id="main"><div class="wrap">
+<div class="hero" style="padding-left:0;padding-right:0;padding-bottom:2rem">
+<span class="eyebrow">Get started</span>
+<h1>Let’s get your business found</h1>
+<p class="lead">Answer a few quick questions. We’ll reply within one business day with a recommended plan, or a few questions of our own.</p>
+</div>
+
+<div class="split" style="padding-bottom:4rem">
+<form class="form" action="https://formspree.io/f/mljbdply" method="post">
+<input type="hidden" name="_subject" value="New client inquiry — Digital Dreams">
+<input type="hidden" name="form" value="client-inquiry">
+<input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="row">
+<div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+<div><label for="email">Email</label><input id="email" type="email" name="email" autocomplete="email" required></div>
+</div>
+<div class="row">
+<div><label for="business">Business name</label><input id="business" name="business" autocomplete="organization" required></div>
+<div><label for="website">Website <span class="small">(if you have one)</span></label><input id="website" name="website" placeholder="yourbusiness.com"></div>
+</div>
+<div class="row">
+<div><label for="plan">What are you interested in?</label>
+<select id="plan" name="plan">
+<option value="not-sure">Not sure yet, help me choose</option>
+<option value="audit">Content Audit ($299)</option>
+<option value="starter">Starter ($497/month)</option>
+<option value="growth">Growth ($997/month)</option>
+<option value="founding">Founding client offer (30% off 3 months)</option>
+<option value="custom">One-off project or custom quote</option>
+</select></div>
+<div><label for="start">When would you like to start?</label>
+<select id="start" name="start">
+<option>As soon as possible</option>
+<option>Within a month</option>
+<option>In 1–3 months</option>
+<option>Just exploring</option>
+</select></div>
+</div>
+<div><label for="goals">What do you sell, and what would you like more of?</label>
+<textarea id="goals" name="goals" placeholder="For example: We’re a family-run bakery. We want more catering orders from local businesses." required></textarea></div>
+<div><label for="source">How did you hear about us? <span class="small">(optional)</span></label><input id="source" name="source"></div>
+<button class="btn" type="submit">Send my details</button>
+<p class="small">We only use your details to reply to you. See our <a href="privacy.html">privacy policy</a>.</p>
+</form>
+
+<aside>
+<div class="card" style="margin-bottom:1.25rem">
+<h3>What happens next</h3>
+<ol style="padding-left:1.2rem;margin:.75rem 0 0;color:var(--mute)">
+<li>We read your answers and look at your website.</li>
+<li>Within one business day, we email you a recommended plan.</li>
+<li>If it looks right, we book a 30-minute kickoff call.</li>
+<li>Your first draft arrives within 10 business days of that call.</li>
+</ol>
+</div>
+<div class="card">
+<h3>Founding client offer</h3>
+<p>Our first 5 clients get 30% off their first 3 months: Starter at $348 and Growth at $698 a month. In return, we ask for an honest testimonial once you’ve seen results.</p>
+</div>
+</aside>
+</div>
+</div></main>
+
+<footer><div class="wrap cols">
+<div><b>Digital Dreams</b><br>© <span class="y">2026</span> Digital Dreams</div>
+<nav aria-label="Footer"><a href="./">Home</a><a href="./#pricing">Pricing</a><a href="privacy.html">Privacy</a></nav>
+</div></footer>
+<script>
+document.querySelectorAll('.y').forEach(e=>e.textContent=new Date().getFullYear());
+var p=new URLSearchParams(location.search).get('plan'),s=document.getElementById('plan');
+if(p&&s.querySelector('option[value="'+p.replace(/[^a-z-]/g,'')+'"]'))s.value=p;
+</script>
+</body>
+</html>
