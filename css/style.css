@@ -1,6 +1,7 @@
 /* Digital Dreams — shared styles */
-:root{--bg:#f6f7fb;--ink:#14192b;--mute:#555d75;--blue:#2d4bff;--blue-ink:#fff;--gold:#ffb81c;--card:#fff;--line:#d9dde9;--soft:#eceffa;--ok:#137a4b}
-@media(prefers-color-scheme:dark){:root{--bg:#10131f;--ink:#eef0f8;--mute:#a4abc2;--blue:#8da0ff;--blue-ink:#10131f;--gold:#ffc94d;--card:#181c2c;--line:#2b3148;--soft:#1d2236;--ok:#5fd39b}}
+/* Desert palette: cream, sand, terracotta, ochre (matches audit.html). --blue is the main accent. */
+:root{--bg:#FAF6EF;--ink:#2B2620;--mute:#6B6155;--blue:#B04A33;--blue-ink:#fff;--gold:#D9A441;--card:#fff;--line:#E8D9C3;--soft:#EFE6D6;--ok:#3E7D4F}
+@media(prefers-color-scheme:dark){:root{--bg:#1E1A16;--ink:#F3ECE0;--mute:#BDB2A2;--blue:#E8836A;--blue-ink:#1E1A16;--gold:#E3B860;--card:#28231E;--line:#3D352D;--soft:#2F2923;--ok:#7CC18E}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:1.1rem/1.65 "Source Serif 4",Georgia,serif;-webkit-font-smoothing:antialiased}
@@ -37,7 +38,7 @@ nav a.btn{color:var(--blue-ink);text-decoration:none}
 .eyebrow{display:inline-block;font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:1rem}
 .hero h1{font-size:clamp(2.4rem,6.5vw,4.4rem);font-weight:800;max-width:16ch}
 .hero h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--gold) 62%);padding:0 .1em}
-@media(prefers-color-scheme:dark){.hero h1 em{background:linear-gradient(transparent 62%,#7a5a00 62%)}}
+@media(prefers-color-scheme:dark){.hero h1 em{background:linear-gradient(transparent 62%,#6B4E17 62%)}}
 .hero p.lead{max-width:56ch;color:var(--mute);margin:1.25rem 0 2rem;font-size:1.2rem}
 .trust{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:2rem;color:var(--mute);font:500 .95rem "Bricolage Grotesque",sans-serif;list-style:none;padding:0}
 .trust li::before{content:"✓ ";color:var(--ok);font-weight:800}
@@ -103,7 +104,7 @@ details p{color:var(--mute);margin:.75rem 0 0}
 .band{background:var(--ink);color:var(--bg);border-radius:14px;padding:2.5rem;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap}
 .band h2{margin:0 0 .4rem}
 .band p{margin:0;opacity:.8}
-.band .btn{background:var(--gold);border-color:var(--gold);color:#14192b}
+.band .btn{background:var(--gold);border-color:var(--gold);color:#2B2620}
 
 /* Forms */
 .form{display:grid;gap:1rem;max-width:640px}
